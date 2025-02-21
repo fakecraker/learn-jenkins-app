@@ -20,11 +20,13 @@ pipeline {
                 '''
             }
         }
-    }
 
-    stage('Text') {
+         stage('Text') {
         steps {
             echo 'Test stage'
         }
     }
+    }
+
+   
 }

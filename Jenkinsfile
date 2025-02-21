@@ -21,4 +21,10 @@ pipeline {
             }
         }
     }
+
+    stage('Text') {
+        steps {
+            echo 'Test stage'
+        }
+    }
 }
